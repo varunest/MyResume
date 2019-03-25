@@ -1,0 +1,146 @@
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+ @import url(_base.css);
+ @import url(_custom.css);
+ @import url(_helpers.css);
+ @import url(_mqs.css);
+ @import url(_print.css);
+
+body {
+    padding: 40px 40px;
+    width: 900px;
+    margin: auto;
+    color: #333333;
+    font-family: "Roboto", Times, serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: #338DF7;
+  }
+
+  p, li {
+    font-size: 15px;
+  }
+
+  li {
+    margin-bottom: 4px;
+  }
+
+  #experience-count {
+    color: #888888;
+    margin-top: 18px;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 17px;
+  }
+
+  h3 {
+    margin: 0px;
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 20px;
+  }
+
+  h3::before {
+    content: "❑";
+    position: absolute;
+    color: #888888;
+    left: -2px;
+
+  }
+
+  #application-for {
+    font-size: 23px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  #intro {
+    display: inline-block;
+  }
+
+  #contact {
+    float: right;
+    font-size: 15px;
+    color: #888888;
+    margin-top: 20px;
+  }
+
+  #contact ul {
+    list-style-type: none;
+  }
+
+  #contact li {
+    margin-bottom: 4px;
+  }
+
+  .company-name {
+    padding-left: 20px;
+    font-size: 18px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+
+  .highlight {
+    color: #338DF7;
+  }
+
+  #header {
+    border-bottom: 2px solid #D1D1D1;
+  }
+
+  .left {
+    width: 35%;
+    display: inline-block;
+  }
+
+  .right {
+    width: 55%;
+    float: right;
+    padding-left: 5%;
+  }
+
+  .company {
+    padding-bottom: 20px;
+    padding-top: -5px;
+    position: relative;
+    display: block;
+    overflow: auto;
+    border-left: 2px solid #888888;
+    padding-left: 7px;
+  }
+
+  .time-location {
+    font-size: 15px;
+    color: #888888;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+
+  .accomplishments {
+    font-size: 15px;
+  }
+
+  .accomplishments ul {
+    list-style-position: outside;
+    margin-top: 0px;
+    padding-left: 10px;
+  }
+
+  .accomplishments li {
+    margin-bottom: 2px;
+  }
