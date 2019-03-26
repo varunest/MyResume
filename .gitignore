@@ -1,3 +1,11 @@
+.editorconfig
+.eslintrc.js
+.gitattributes
+.github
+.idea
+.jscsrc
+.travis.yml
+.travis
 archive
 node_modules
 package-lock.json
